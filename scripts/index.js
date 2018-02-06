@@ -15,9 +15,10 @@ class Sprite {
 
 }
 
-class Tilemap {
-  constructor() {
-    this.ts = 32
+class GameMap {
+  constructor(tile) {
+    this.tile = tile
+
 
   }
 }
