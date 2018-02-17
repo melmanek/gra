@@ -1,9 +1,6 @@
-class Sprite {
-  constructor(file, tilesize) {
-    this.tilesize = tilesize
-    this.radians = Math.PI * 180
+export class Sprite {
+  constructor(file) {
     this.image = new Image()
-
     this.image.src = file
     return this.image
   }

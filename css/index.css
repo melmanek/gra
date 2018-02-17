@@ -1,8 +1,6 @@
 body {
-  background: #1b1b1b;
+  background: #1b1b1b url("https://image.ibb.co/g5sxUk/pobrane.png");
   margin: 0;
   padding: 0;
-  display: flex;
-  justify-content: center;
-  margin-top: 50px;
+  overflow: hidden;
 }
